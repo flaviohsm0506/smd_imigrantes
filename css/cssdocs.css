@@ -1,0 +1,117 @@
+.tabs {
+  position: relative;   
+  min-height: 500px;  This part sucks */
+  clear: both;
+  margin: 25px 0;
+  width: 90%;
+display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+.tab {
+  float: left;
+
+}
+
+.estado{
+display: none;
+
+}
+
+
+.estado2 a{
+color: blue;
+
+}
+
+.estado2{
+display: none;
+margin-right: 500px;
+
+}
+
+.estatus{
+
+}
+
+.tab label {
+  background: white; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  margin-left: -1px; 
+  position: relative;
+  left: 1px; 
+    border-top: 2px solid #D3D3D3;
+    color: #8B8989;
+
+}
+.tab [type=radio] {
+  display: none;   
+}
+.content {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  background: white;
+  right: 0;
+  bottom: 0;
+  padding: 50px 0;
+  padding-right: 0;
+  border-top: 1px solid #ccc; 
+  text-align: justify;
+}
+
+.content p {
+  margin-left: 50px;
+
+}
+
+[type=radio]:checked ~ label {
+  background: white;
+  border-bottom: 1px solid white;
+  border-top: 4px solid #3CB371;
+  z-index: 2;
+  color: #3CB371;
+  font-weight: bold;
+}
+[type=radio]:checked ~ label ~ .content {
+  z-index: 1;
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 12.5px;
+    border-collapse: collapse;
+
+}
+
+table{
+  margin-bottom: 50px;
+  background-color: white;
+  width: 100%;
+}
+th, td {
+
+  padding: 10px;
+}
+
+td a{
+  color: blue;
+}
+
+td a:hover{
+    background-color: rgba(100, 149, 237, .2);
+
+}
+
+th{
+  background-color: #F0F8FF;
+}
+
+.destaque {
+  font-weight: bold;
+  color: ;
+  border-bottom: 1px solid #009933;
+}

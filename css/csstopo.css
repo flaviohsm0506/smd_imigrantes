@@ -1,0 +1,383 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+
+
+html, body
+{
+    margin: 0px;
+    background-color: #F0FFF0;
+    font-family: Candara;
+    color: #6C7B8B;
+}
+
+header, footer
+{
+    font-family: Candara;
+    margin: 0 auto;
+  padding: 5em 3em;
+  text-align: center;
+    background: #555;
+}
+
+header h1
+{
+    color: #AAA;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+header span
+{
+    color: #222;
+}
+
+footer span
+{
+  color: #AAA;
+}
+
+
+
+div.container
+{
+    font-family: Raleway;
+    margin: 0 auto;
+    padding-right: 2%;
+    padding-bottom: 10px;
+   text-align: right;
+   padding: none;
+   height: 50px;
+
+}
+
+
+
+div.container a
+{
+    color: #FFF;
+    text-decoration: none;
+    font: 14px Raleway;
+    top: 15px;
+
+    margin-left:5px;
+    padding: 5px 5px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;  
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("mundo3.jpg");
+    display: block;
+
+
+  /* Set a specific height */
+  min-height: 300px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-size: 500px;
+
+}
+
+.parallax2 {
+  background-image: url("34062.jpg");
+    display: block;
+  min-height: 300px; 
+background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+  background-image: url("3776351.jpg");
+    display: block;
+  min-height: 300px; 
+background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax4 {
+  background-image: url("3691848.jpg");
+    display: block;
+  min-height: 300px; 
+background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax5 {
+  /* The image used */
+  background-image: url('pessoas.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.indigo
+{
+    background: #80d3e6;
+}
+
+
+
+/* Border X get width  */
+div.borderXwidth a:before, div.borderXwidth a:after
+{
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
+}
+
+div.borderXwidth a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+div.borderXwidth a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
+{
+    opacity: 1;
+    width: 100%;
+}
+
+/*Card*/
+
+
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 200px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+  font-size: 16px;
+  padding: 10px;
+  font-family: Candara;
+  margin-bottom: 50px;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-3 {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-4 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-5 {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.caixa{
+  padding: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+.imgcard{
+  width: 120px;
+  margin: 10px;
+  position: relative;
+  top: -60px;
+}
+
+h4{
+  margin:-5px;
+  position: relative;
+  top: -50px;
+}
+
+.caixa p {
+  margin:0;
+  position: relative;
+  top: -50px;
+}
+/*asssasas*/
+
+.button-two {
+  border-radius: 2px;
+  background-color:#12a800;
+  border: none;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  position: relative;
+  top: -40px;
+  font-family: Candara;
+  font-size: 15px;
+  color: white;
+}
+
+
+.button-two span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-two span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-two:hover span {
+  padding-right: 25px;
+}
+
+.button-two:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+/*ooakowsowskw*/
+
+.canto{
+  
+}
+
+.tooltip {
+  display: inline-block;
+  position: fixed;
+  height: 50px;
+  top: 90%;
+  left: 95%;
+  margin: -20px;
+
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 50px;
+  background-color: #FFDAB9;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: 0px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #FFDAB9 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*social icones*/
+.whatsapp-share-button{
+            display: inline-block;            
+            width: 40px;
+            height: 40px;
+            margin: 5px;
+            background-size: 100% 100%; /* ou 'contain' */
+            background-image: url("wpp.png");
+             background-repeat: no-repeat;
+            background-position: center;
+        }
+
+.facebook-share-button{
+            display: inline-block;            
+            width: 40px;
+            height: 40px;
+            margin: 5px;
+            background-size: 100% 100%; /* ou 'contain' */
+background-image: url("fb.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+.twitter-share-button{
+            display: inline-block;            
+            width: 40px;
+            height: 40px;
+            margin: 5px;
+            background-size: 100% 100%; /* ou 'contain' */
+background-image: url("tt.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+.finaltexto{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  top: 30%;
+   margin: auto 20%;
+  font-family: Arial;
+  position: relative;
+  top: 30px;
+
+}
+
+.finaldiv{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  top: 36%;
+  margin: auto 25%;
+
+  font-family: Arial;
+  position: relative;
+border-bottom: 16px solid #FFFFFF;
+border-top: 16px solid #FFFFFF;
+}
+

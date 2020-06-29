@@ -1,0 +1,238 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+
+
+html, body
+{
+    margin: 0px;
+    background-color: #F0FFF0;
+    font-family: Candara;
+    color: #6C7B8B;
+}
+
+header, footer
+{
+    font-family: Candara;
+    margin: 0 auto;
+  padding: 5em 3em;
+  text-align: center;
+    background: #555;
+}
+
+header h1
+{
+    color: #AAA;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+header span
+{
+    color: #222;
+}
+
+footer span
+{
+  color: #AAA;
+}
+
+div.container
+{
+    font-family: Raleway;
+    margin: auto;
+    padding-right: 2%;
+    padding-bottom: 10px;
+  height: 50px; 
+   text-align: right;
+
+}
+
+
+
+div.container a
+{
+    color: #FFF;
+    text-decoration: none;
+    font: 14px Raleway;
+    top: 15px;
+
+    margin-left:5px;
+    padding: 5px 5px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;  
+}
+
+
+.indigo
+{
+    background: #80d3e6;
+}
+
+
+
+/* Border X get width  */
+div.borderXwidth a:before, div.borderXwidth a:after
+{
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
+}
+
+div.borderXwidth a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+div.borderXwidth a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
+{
+    opacity: 1;
+    width: 100%;
+}
+
+
+/*asssasas*/
+
+.button-two {
+  border-radius: 2px;
+  background-color:#12a800;
+  border: none;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  position: relative;
+  top: -40px;
+  font-family: Candara;
+  font-size: 15px;
+  color: white;
+}
+
+
+.button-two span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-two span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-two:hover span {
+  padding-right: 25px;
+}
+
+.button-two:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+h1{
+  text-align: center;
+}
+
+.caixai{
+  margin: 2px 10%;
+  text-align: center;
+
+}
+
+/*Card*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+    margin: 0;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: -1px 2px 4px rgba(0,0,0,.25), 1px 1px 3px rgba(0,0,0,.1);
+  margin: 10px 0;
+  margin-left: 10px;
+  max-width: 300px;
+text-align: justify;
+vertical-align: top;
+
+
+}
+
+.card-media {
+  width: 100%;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    background-color: #BFEFFF;
+}
+
+.card-details {
+  padding: 5px 15px;
+  display: none;
+}
+
+.card-head {
+  font-weight: 400;
+}
+
+.p-card{
+margin-top: 0;
+font-size: 13px;
+
+}
+.card-head {
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-left: 0;
+  font-weight: bold;
+
+}
+
+.card-action-button {
+  border-radius: 2px;
+  color: #3CB371;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  margin: 0;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.card-action-button:hover {
+  background-color: rgba(0, 250, 154, .2);
+}
+
+div{
+
+  display: inline-block;
+}
+
+.estado{
+  display: inline-block;
+
+}
